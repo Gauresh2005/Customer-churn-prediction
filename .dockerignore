@@ -1,0 +1,11 @@
+.venv/
+venv/
+pycache/
+.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.git/
+.env
+.env.
+!.env.example
+notebooks/
