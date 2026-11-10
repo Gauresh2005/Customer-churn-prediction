@@ -12,7 +12,7 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        'http://localhost:5173'
+        'https://customer-churn-prediction-frontend-brown.vercel.app'
     ],
     allow_credentials=False,
     allow_methods=['*'],
